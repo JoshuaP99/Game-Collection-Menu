@@ -138,8 +138,8 @@ class Menu {
   //This selectedCollection is then spliced from the array
   deleteCollection() {
     let index = prompt("Enter the collection you want to delete");
-    if (index > -1 && index < this.selectedCollection.length);{
-      this.selectedCollection.splice(index, 1);
+    if (index > -1 && index < this.collection.length);{
+      this.collection.splice(index, 1);
     }
     
   }
